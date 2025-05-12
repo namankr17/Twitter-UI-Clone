@@ -1,0 +1,20 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "description": "This is twitter ui clone made by Naman Kumar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [
+    "twitter",
+    "clone",
+    "project"
+  ],
+  "author": "Naman Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
